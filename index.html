@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Frontend Developer Milestone | Hello World</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Background Glow Effects -->
+  <div class="glow glow-1"></div>
+  <div class="glow glow-2"></div>
+
+  <!-- Navigation / Header -->
+  <header class="navbar">
+    <div class="logo">
+      <span class="badge-role">Frontend Intern</span>
+      <span class="logo-title">DevWorkspace</span>
+    </div>
+    <div class="nav-actions">
+      <button id="themeToggle" class="theme-btn" aria-label="Toggle Theme">
+        <span class="icon">🌙</span>
+      </button>
+      <a href="https://github.com" target="_blank" class="github-link">GitHub ↗</a>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <main class="container">
+    <section class="hero-card">
+      <div class="pill">🚀 Milestone 01 : Completed</div>
+      <h1 class="hero-title">
+        Hello World, <span class="gradient-text">I'm Ready!</span>
+      </h1>
+      <p class="hero-subtitle">
+        Welcome to your frontend development journey. Your local workspace, environment tools, and modern web foundation are now fully configured and verified.
+      </p>
+
+      <div class="stats-grid">
+        <div class="stat-card">
+          <div class="stat-value" id="runtimeClock">--:--:--</div>
+          <div class="stat-label">System Time</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-value text-green">Online</div>
+          <div class="stat-label">Environment Status</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-value" id="completedTasksCount">4 / 4</div>
+          <div class="stat-label">Milestones Ready</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Stack Verification Grid -->
+    <section class="section">
+      <h2 class="section-title">Core Technology Stack</h2>
+      <div class="stack-grid">
+        <div class="tech-card">
+          <div class="tech-icon html-icon">🌐</div>
+          <h3>HTML5 Semantic</h3>
+          <p>Clean structure, accessibility (a11y), and modern semantic tagging.</p>
+          <span class="status-tag success">Verified</span>
+        </div>
+
+        <div class="tech-card">
+          <div class="tech-icon css-icon">🎨</div>
+          <h3>Modern CSS3</h3>
+          <p>Flexbox, CSS Grid, custom properties (CSS variables), responsive styling.</p>
+          <span class="status-tag success">Verified</span>
+        </div>
+
+        <div class="tech-card">
+          <div class="tech-icon js-icon">⚡</div>
+          <h3>JavaScript (ES6+)</h3>
+          <p>Dynamic DOM interaction, asynchronous events, and state management.</p>
+          <span class="status-tag success">Verified</span>
+        </div>
+
+        <div class="tech-card">
+          <div class="tech-icon git-icon">🐙</div>
+          <h3>Git & Version Control</h3>
+          <p>Repository tracking, feature branching, and professional collaboration.</p>
+          <span class="status-tag success">Verified</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Interactive Verification Playground -->
+    <section class="section">
+      <h2 class="section-title">Interactive Verification Playground</h2>
+      <div class="playground-card">
+        <div class="playground-info">
+          <h3>Test JavaScript DOM Reactivity</h3>
+          <p>Click the buttons below to verify event handling and state updates in real-time:</p>
+        </div>
+        <div class="counter-box">
+          <span class="counter-display" id="counterValue">0</span>
+          <div class="counter-controls">
+            <button id="decrementBtn" class="btn btn-secondary">-</button>
+            <button id="resetBtn" class="btn btn-outline">Reset</button>
+            <button id="incrementBtn" class="btn btn-primary">+</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Onboarding Checklist -->
+    <section class="section">
+      <h2 class="section-title">Onboarding Checklist</h2>
+      <div class="checklist-card">
+        <ul class="checklist" id="checklist">
+          <li class="check-item done">
+            <span class="checkbox">✔</span>
+            <div class="check-text">
+              <strong>Code Editor & Node.js Installed</strong>
+              <p>VS Code, Node.js runtime, and package management operational.</p>
+            </div>
+          </li>
+          <li class="check-item done">
+            <span class="checkbox">✔</span>
+            <div class="check-text">
+              <strong>Git Identity Configured</strong>
+              <p>Git global username and email configured for commit tracking.</p>
+            </div>
+          </li>
+          <li class="check-item done">
+            <span class="checkbox">✔</span>
+            <div class="check-text">
+              <strong>Project Architecture Established</strong>
+              <p>Modular directory layout, assets, styling, and documentation organized.</p>
+            </div>
+          </li>
+          <li class="check-item done">
+            <span class="checkbox">✔</span>
+            <div class="check-text">
+              <strong>Milestone "Hello World" Verified</strong>
+              <p>Interactive verification app running smoothly.</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>Frontend Internship Foundation Phase • Workspace Ready</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
